@@ -19,7 +19,7 @@ import edu.abp.paradigm.turnstile.controller.TurnstileController;
  * and current state to a action and next state;
  *
  */
-public class STTableBasedTurnstile3 implements Turnstile {
+public class STTableBasedTurnstile2 implements Turnstile {
 
 	/**
 	 * Initial state
@@ -30,7 +30,7 @@ public class STTableBasedTurnstile3 implements Turnstile {
 	
 	private Transitions<TurnstileState, TurnstileEvent> transitions;
 
-	public STTableBasedTurnstile3(TurnstileController controller, TransitionsBuilder<TurnstileState, TurnstileEvent> tBuilder) {
+	public STTableBasedTurnstile2(TurnstileController controller, TransitionsBuilder<TurnstileState, TurnstileEvent> tBuilder) {
 		
 		this.turnstileController = controller;
 		
