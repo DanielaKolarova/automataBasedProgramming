@@ -1,9 +1,12 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
-import org.fsm.turnstile.controller.TurnstileController;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import edu.abp.paradigm.turnstile.Turnstile;
+import edu.abp.paradigm.turnstile.TurnstileEvent;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
 
 /**
  * Base turnstile test that can be extended in order to be able to test various

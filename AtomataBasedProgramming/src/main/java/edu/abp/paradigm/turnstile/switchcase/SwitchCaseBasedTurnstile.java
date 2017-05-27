@@ -1,9 +1,9 @@
-package org.fsm.turnstile.switchcase;
+package edu.abp.paradigm.turnstile.switchcase;
 
-import org.fsm.turnstile.AbstractTurnstile;
-import org.fsm.turnstile.TurnstileEvent;
-import org.fsm.turnstile.TurnstileState;
-import org.fsm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.AbstractTurnstile;
+import edu.abp.paradigm.turnstile.TurnstileEvent;
+import edu.abp.paradigm.turnstile.TurnstileState;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
 
 /**
  * There are many different strategies for implementing FSM. The first, and most
@@ -17,7 +17,7 @@ public class SwitchCaseBasedTurnstile extends AbstractTurnstile<TurnstileState> 
 	 * 
 	 * @param turnstileController
 	 *            encapsulates the actions to be performed
-	 *            {@link org.fsm.turnstile.controller.TurnstileController}
+	 *            {@link edu.abp.paradigm.turnstile.controller.TurnstileController}
 	 */
 	public SwitchCaseBasedTurnstile(TurnstileController turnstileController) {
 		super(turnstileController, TurnstileState.LOCKED);
@@ -30,7 +30,7 @@ public class SwitchCaseBasedTurnstile extends AbstractTurnstile<TurnstileState> 
 	 * then invokes the appropriate action.
 	 * 
 	 * @param event
-	 *            {@link org.fsm.turnstile.TurnstileEvent} enumeration value
+	 *            {@link edu.abp.paradigm.turnstile.TurnstileEvent} enumeration value
 	 *            representing the event type that occurred
 	 */
 	public void event(TurnstileEvent event) {

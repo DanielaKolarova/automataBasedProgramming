@@ -1,4 +1,4 @@
-package org.fsm.turnstile.controller;
+package edu.abp.paradigm.turnstile.controller;
 
 /**
  * Decouples the logic of the finite state machine from the actions it needs to

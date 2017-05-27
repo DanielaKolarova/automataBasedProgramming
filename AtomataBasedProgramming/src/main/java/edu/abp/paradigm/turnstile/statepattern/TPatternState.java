@@ -1,4 +1,4 @@
-package org.fsm.turnstile.statepattern;
+package edu.abp.paradigm.turnstile.statepattern;
 
 /**
  * Represents a state machine state. The possible SM states will implement this

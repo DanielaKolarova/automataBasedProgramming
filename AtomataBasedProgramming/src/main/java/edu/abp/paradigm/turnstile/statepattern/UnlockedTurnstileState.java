@@ -1,4 +1,4 @@
-package org.fsm.turnstile.statepattern;
+package edu.abp.paradigm.turnstile.statepattern;
 
 /**
  * Unlocked SM state

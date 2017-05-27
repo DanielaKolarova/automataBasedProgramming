@@ -1,7 +1,9 @@
-package org.fsm.turnstile.builder;
+package edu.abp.paradigm.turnstile.builder;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import edu.abp.paradigm.turnstile.builder.GenericBuilder;
 
 public class GenericBuilderTest {
 	

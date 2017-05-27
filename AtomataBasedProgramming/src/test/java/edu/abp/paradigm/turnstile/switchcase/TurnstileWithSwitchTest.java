@@ -1,8 +1,9 @@
-package org.fsm.turnstile.switchcase;
+package edu.abp.paradigm.turnstile.switchcase;
 
-import org.fsm.turnstile.AbstractTurnstileTest;
-import org.fsm.turnstile.Turnstile;
-import org.fsm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.AbstractTurnstileTest;
+import edu.abp.paradigm.turnstile.Turnstile;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.switchcase.SwitchCaseBasedTurnstile;
 
 /**
  * Tests the correctness of the state transitions based on events. Based on a

@@ -1,4 +1,4 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
 /**
  * Single Abstract Method interface (SAM Interface) or Functional interface

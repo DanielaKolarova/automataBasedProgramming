@@ -1,8 +1,9 @@
-package org.fsm.turnstile.sttable;
+package edu.abp.paradigm.turnstile.sttable;
 
-import org.fsm.turnstile.AbstractTurnstileTest;
-import org.fsm.turnstile.Turnstile;
-import org.fsm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.AbstractTurnstileTest;
+import edu.abp.paradigm.turnstile.Turnstile;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.sttable.STTableBasedTurnstile;
 
 /**
  * Tests the correctness of the state transitions based on events. Based on a

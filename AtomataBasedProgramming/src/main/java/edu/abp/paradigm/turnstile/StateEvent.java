@@ -1,4 +1,4 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
 /**
  * State(S) x Event(E) mapping triggering a transition as part of the transition

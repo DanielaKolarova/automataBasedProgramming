@@ -1,17 +1,17 @@
-package org.fsm.turnstile.sttable;
+package edu.abp.paradigm.turnstile.sttable;
+
+import static edu.abp.paradigm.turnstile.TurnstileEvent.*;
+import static edu.abp.paradigm.turnstile.TurnstileState.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.fsm.turnstile.Turnstile;
-import org.fsm.turnstile.TurnstileEvent;
-import org.fsm.turnstile.TurnstileState;
-import org.fsm.turnstile.controller.TurnstileController;
-
-import static org.fsm.turnstile.TurnstileState.*;
-import static org.fsm.turnstile.TurnstileEvent.*;
+import edu.abp.paradigm.turnstile.Turnstile;
+import edu.abp.paradigm.turnstile.TurnstileEvent;
+import edu.abp.paradigm.turnstile.TurnstileState;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
 
 /**
  * There are many different strategies for implementing FSM. This implementation

@@ -1,12 +1,12 @@
-package org.fsm.turnstile.statepattern;
+package edu.abp.paradigm.turnstile.statepattern;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiConsumer;
 
-import org.fsm.turnstile.AbstractTurnstile;
-import org.fsm.turnstile.TurnstileEvent;
-import org.fsm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.AbstractTurnstile;
+import edu.abp.paradigm.turnstile.TurnstileEvent;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
 
 public class StatePatternBasedTurnstile extends AbstractTurnstile<TPatternState> {
 
@@ -37,7 +37,7 @@ public class StatePatternBasedTurnstile extends AbstractTurnstile<TPatternState>
 	 * 
 	 * @param turnstileController
 	 *            encapsulates the actions to be performed
-	 *            {@link org.fsm.turnstile.controller.TurnstileController}
+	 *            {@link edu.abp.paradigm.turnstile.controller.TurnstileController}
 	 */
 	public StatePatternBasedTurnstile(TurnstileController controller) {
 		super(controller, lockedState);

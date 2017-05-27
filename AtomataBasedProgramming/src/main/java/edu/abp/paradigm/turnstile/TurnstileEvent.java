@@ -1,4 +1,4 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
 /**
  * Events that can be received by a turnstile {@link Turnstile}.

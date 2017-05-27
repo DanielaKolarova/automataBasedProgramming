@@ -1,4 +1,4 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
 /**
  * Set of states of a turnstile {@link Turnstile}.

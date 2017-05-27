@@ -1,6 +1,6 @@
-package org.fsm.turnstile;
+package edu.abp.paradigm.turnstile;
 
-import org.fsm.turnstile.controller.TurnstileController;
+import edu.abp.paradigm.turnstile.controller.TurnstileController;
 
 /**
  * 
@@ -26,7 +26,7 @@ public abstract class AbstractTurnstile<S> implements Turnstile {
 	 * 
 	 * @param turnstileController
 	 *            encapsulates the actions to be performed
-	 *            {@link org.fsm.turnstile.controller.TurnstileController}
+	 *            {@link edu.abp.paradigm.turnstile.controller.TurnstileController}
 	 */
 	protected AbstractTurnstile(TurnstileController turnstileController, S initialState) {
 		this.turnstileController = turnstileController;

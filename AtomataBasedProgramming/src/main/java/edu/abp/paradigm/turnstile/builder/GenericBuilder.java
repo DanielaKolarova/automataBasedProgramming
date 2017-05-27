@@ -1,4 +1,4 @@
-package org.fsm.turnstile.builder;
+package edu.abp.paradigm.turnstile.builder;
 
 import java.util.ArrayList;
 import java.util.List;
